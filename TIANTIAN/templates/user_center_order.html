@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}{{ goods.name }}{% endblock title %}
+{% block content %}
+
+	<div class="main_con clearfix">
+		<div class="left_menu_con clearfix">
+			<h3>用户中心</h3>
+			<ul>
+				<li><a href="{% url 'center_info' %}">· 个人信息</a></li>
+				<li><a href="{% url 'center_order' %}" class="active">· 全部订单</a></li>
+				<li><a href="{% url 'center_site' %}">· 收货地址</a></li>
+			</ul>
+		</div>
+		<div class="right_content clearfix">
+				<h3 class="common_title2">全部订单</h3>
+
+            {% for dingdan in page.object_list %}
+				<ul class="order_list_th w978 clearfix">
+					<li class="col01">{{ dingdan.add_time }}</li>
+					<li class="col02">{{ dingdan.id }}</li>
+					<li class="col02 stress"></li>
+				</ul>
+
+				<table class="order_list_table w980">
+					<tbody>
+						<tr>
+							<td width="55%">
+                                {% for order in dingdan.ordergoods_set.all %}
+								<ul class="order_goods_list clearfix">					
+									<li class="col01"><img src="{{ MEDIA_URL }}{{ order.goods.thumb }}"></li>
+									<li class="col02">{{ order.goods.name }}<em>{{ order.goods.price }}元/500g</em></li>
+									<li class="col03">{{ order.number }}</li>
+									<li class="col04">{{ order.goods.price }}元</li>
+								</ul>
+								{% endfor %}
+
+							</td>
+							<td width="15%">{{ a }}</td>
+							<td width="15%">待付款</td>
+							<td width="15%"><a href="#" class="oper_btn">去付款</a></td>
+						</tr>
+
+					</tbody>
+				</table>
+        {% endfor %}
+				<div class="pagenation">
+                    {% for page in page.paginator.page_range %}
+                    <a href="{% url 'center_order' %}?num={{ page }}"
+                       class="active" style="background-color: #1b6d85">{{ page }}</a>
+                    {% endfor %}
+
+				</div>
+		</div>
+	</div>
+
+
+{% endblock content %}
