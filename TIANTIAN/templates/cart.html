@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% block title %}购物车{% endblock title %}
+{% block content %}
+    {% load staticfiles %}
+
+{% block ccc %}{% endblock ccc %}
+	<div class="total_count">全部商品<em>{{ num }}</em>件</div>
+	<ul class="cart_list_th clearfix">
+		<li class="col01">商品名称</li>
+		<li class="col02">商品单位</li>
+		<li class="col03">商品价格</li>
+		<li class="col04">数量</li>
+		<li class="col05">小计</li>
+		<li class="col06">操作</li>
+	</ul>
+
+    {% for id in car %}
+	<ul class="cart_list_td clearfix">
+		<li class="col01"><input class="select" type="checkbox" name="" checked data-id ={{id.id}}></li>
+		<li class="col02"><img src="{{ MEDIA_URL }}{{ id.goods.thumb }}"></li>
+		<li class="col03">{{ id.goods.name }}<br><em>{{ id.goods.price }}元/500g</em></li>
+		<li class="col04">500g</li>
+		<li class="col05">{{ id.goods.price }}元</li>
+		<li class="col06">
+			<div class="num_add">
+				<a href="javascript:;" class="add fl">+</a>
+				<input type="text" class="num_show fl" value="{{ id.number }}">
+				<a href="javascript:;" class="minus fl">-</a>	
+			</div>
+		</li>
+		<li class="col07">25.80元</li>
+		 <li class="col08"><a href="{% url 'delete' %}?cart_goods_id={{ id.id }}">删除</a></li>
+	</ul>
+
+	{% endfor %}
+	<ul class="settlements">
+		<li class="col01"><input id="selectAll" type="checkbox" name="" checked=""></li>
+		<li class="col02">全选</li>
+		<li class="col03">合计(不含运费)：<span>¥</span><em id="total">42.60</em><br>共计<b id="count">2</b>件商品</li>
+		<li class="col04"><a id="jiesuan" href="{% url 'order' %}">去结算</a></li>
+	</ul>
+    <script>
+        $('#jiesuan').click(function () {
+            {#获取被选中的复选框#}
+            cartgoods = []
+            $('.select:checked').each(function (i,el) {
+                num = $(el).parents('ul').find('.num_show').val()
+                id = $(el).attr('data-id')
+                cartgoods.push({'number':num,'cartgoods_id':id})
+            })
+            console.log(cartgoods)
+            $(this).attr('href',"{% url 'order' %}?data=" + JSON.stringify(cartgoods))
+
+
+        })
+    </script>
+{#    <script >src="{% static 'jquery-1.12.4.min.js' %}"></script>#}
+    <script>
+
+		$('.add').click(function(){
+			// 获取原来的数量
+			var n = parseInt($(this).next('.num_show').val())
+			// 给数量加1
+			$(this).next('.num_show').val(n+1)
+			$('.num_show').change()
+			// // 获取商品单价
+			// price = parseFloat($(this).parent().parent().prev().html()) * 100
+			// // 计算小计
+			// sum = price * (n+1)
+			// // 获取小计的元素并赋值
+			// $(this).parent().parent().next().text(sum/100 + '元')
+		});
+		$('.minus').click(function(){
+			var n = parseInt($(this).prev('.num_show').val())
+			if(n>0){
+				$(this).prev('.num_show').val(n-1)
+				$('.num_show').change()
+				// // 获取商品单价
+				// price = parseFloat($(this).parent().parent().prev().html()) * 100
+				// // 计算小计
+				// sum = price * (n-1)
+				// // 获取小计的元素并赋值
+				// $(this).parent().parent().next().text(sum/100 + '元')
+			}
+		})
+		$('.num_show').change(function() {
+			// 获取商品单价
+			price = parseFloat($(this).parent().parent().prev().html()) * 100
+			// 计算小计
+			sum = price * $(this).val()
+			// 获取小计的元素并赋值
+			$(this).parent().parent().next().text((sum/100).toFixed(2) + '元')
+
+			// 计算总价
+			var total = 0
+			$('.col07').each(function(i, el){
+				if($(this).parents('ul').find('.select').get(0).checked) {
+					total += parseFloat($(el).text()) * 100
+				}
+			})
+			$('#total').text((total/100).toFixed(2))
+		})
+
+		// 选择框改变，处理价格和数量计算
+		$('.select').change(function() {
+			n = parseInt($('#count').text())
+			if(this.checked) {
+				$('#count').text(n+1)
+			} else {
+				if(n > 0){
+					$('#count').text(n-1)
+				}
+			}
+			$('.num_show').change()
+		})
+		// 点击全选，计算价格和数量
+		$('#selectAll').change(function(){
+			checked = this.checked
+			$('.select').each(function(i,el){
+				el.checked = checked
+			})
+			$('.select').change()
+		})
+    </script>
+
+{% endblock content %}
