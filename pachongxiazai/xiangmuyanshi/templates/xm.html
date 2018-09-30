@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   {% load staticfiles %}
+   <body style="height: 100%; margin: 0">
+       <div id="container" style="height: 60%"></div>
+
+       <div id="wenzi">
+           分析数据可以发现，全国各省一共有车辆{{ aa }},全国二手车辆平均路程为{{ bb.lucheng__avg }}万公里,价格最高是{{ bb.price__max }},
+           价格最低的是{{ bb.price__min }}.
+       </div>
+       <div id="aaa">
+           分析数据可以看出来二手车最多的地方为上海，其次是广东，浙江等。可以看出，二手车市场份额大部分都在沿海城市。
+           请输入你要买的车：
+           <form action="xm" method="post">
+               {% csrf_token %}
+               <input type="text" name="q">
+               <input type="submit" value="查询">
+           </form>
+           <p>该车最低价格为{{ ctx.price }}</p>
+           <p>该车路程是{{ ctx.lucheng }}</p>
+           <p>该车规格为{{ ctx.guige }}</p>
+           <p>该车详情
+               <a  href="{{ ctx.url_field }}" type="button" value="搜索">链接地址</a>
+           </p>
+       </div>
+       <style>
+           #wenzi{
+               position: absolute;
+               width: 30%;
+               height: 40%;
+               color: aquamarine;
+               font-size:30px;
+               text-shadow:#707070 0.05px 0.05px 0.05px;
+               font-weight: bolder;
+               border-bottom-color: black;
+               margin-left:40px;
+         }
+           #aaa{
+               font-size: 20px;
+               float:right;
+               word-wrap:break-word;
+               width: 30%;
+               margin-right: 20%;
+           }
+
+
+       </style>
+       <script>
+           function aaaa() {
+               var msg = document.getElementById('chazhao');
+
+           }
+       </script>
+
+       <script type="text/javascript" src="{% static 'echarts.min.js'%}"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script><script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+
+var dataAxis = [
+    {% for i in where_ %}
+    '{{ i.where_field }}',
+    {% endfor %}];
+
+var data = [{% for i in where_ %}
+    '{{ i.Count }}',
+    {% endfor %}];
+var yMax = 1000;
+var dataShadow = [];
+
+
+for (var i = 0; i < data.length; i++) {
+    dataShadow.push(yMax);
+}
+
+option = {
+    title: {
+        text: '二手车和省份对比图',
+        subtext: 'Used car and province comparison chart'
+    },
+    xAxis: {
+        data: dataAxis,
+        axisLabel: {
+            inside: true,
+            textStyle: {
+                color: '#fff'
+            }
+        },
+        axisTick: {
+            show: false
+        },
+        axisLine: {
+            show: false
+        },
+        z: 10
+    },
+    yAxis: {
+        axisLine: {
+            show: false
+        },
+        axisTick: {
+            show: false
+        },
+        axisLabel: {
+            textStyle: {
+                color: '#999'
+            }
+        }
+    },
+    dataZoom: [
+        {
+            type: 'inside'
+        }
+    ],
+    series: [
+        { // For shadow
+            type: 'bar',
+            itemStyle: {
+                normal: {color: 'rgba(0,0,0,0.05)'}
+            },
+            barGap:'-70%',
+            barCategoryGap:'30%',
+            data: dataShadow,
+            animation: false
+        },
+        {
+            type: 'bar',
+            itemStyle: {
+                normal: {
+                    color: new echarts.graphic.LinearGradient(
+                        0, 0, 0, 1,
+                        [
+                            {offset: 0, color: '#83bff6'},
+                            {offset: 0.5, color: '#188df0'},
+                            {offset: 1, color: '#188df0'}
+                        ]
+                    )
+                },
+                emphasis: {
+                    color: new echarts.graphic.LinearGradient(
+                        0, 0, 0, 1,
+                        [
+                            {offset: 0, color: '#2378f7'},
+                            {offset: 0.7, color: '#2378f7'},
+                            {offset: 1, color: '#83bff6'}
+                        ]
+                    )
+                }
+            },
+            data: data
+        }
+    ]
+};
+
+// Enable data zoom when user click bar.
+var zoomSize = 6;
+myChart.on('click', function (params) {
+    console.log(dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)]);
+    myChart.dispatchAction({
+        type: 'dataZoom',
+        startValue: dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)],
+        endValue: dataAxis[Math.min(params.dataIndex + zoomSize / 2, data.length - 1)]
+    });
+});;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script>
+   </body>
+</html>
