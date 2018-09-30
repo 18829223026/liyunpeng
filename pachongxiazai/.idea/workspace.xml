@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18e02d37-0457-4648-872c-218f099da96e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pachongxiazai$Console_mg.coverage" NAME="Console mg Coverage Results" MODIFIED="1536578091458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$xiazai.coverage" NAME="xiazai Coverage Results" MODIFIED="1536033982857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$img.coverage" NAME="img Coverage Results" MODIFIED="1536570646687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$post11.coverage" NAME="post11 Coverage Results" MODIFIED="1536286223792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$bizhi_test1.coverage" NAME="bizhi_test1 Coverage Results" MODIFIED="1536569867915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$xs.coverage" NAME="xs Coverage Results" MODIFIED="1537105433360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$1.coverage" NAME="第三节练习1 Coverage Results" MODIFIED="1536226518335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$.coverage" NAME="第三节 Coverage Results" MODIFIED="1536120769395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$xiaoshuo_case1.coverage" NAME="xiaoshuo_case1 Coverage Results" MODIFIED="1536309917452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$SADFASDF.coverage" NAME="SADFASDF Coverage Results" MODIFIED="1536749725420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$Spider.coverage" NAME="Spider Coverage Results" MODIFIED="1536731724446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$asdfad.coverage" NAME="asdfad Coverage Results" MODIFIED="1536809510786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$111.coverage" NAME="111 Coverage Results" MODIFIED="1536033992308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongxiazai$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1536311576103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1219714595">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="30" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.235" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.38" value="6" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.42" value="3" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.55" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="302" />
+          <entry key="cfg" value="13" />
+          <entry key="dummy" value="7" />
+          <entry key="py" value="6361" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="13" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="6663" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="4" value="1" />
+          <entry key="a标签" value="1" />
+          <entry key="bat" value="1" />
+          <entry key="cfg" value="11" />
+          <entry key="html" value="10" />
+          <entry key="jpeg" value="13" />
+          <entry key="jpg" value="20" />
+          <entry key="json" value="2" />
+          <entry key="py" value="165" />
+          <entry key="pyi" value="1" />
+          <entry key="sohu a链接" value="1" />
+          <entry key="txt" value="3" />
+          <entry key="爬虫随笔" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="10" />
+          <entry key="Image" value="33" />
+          <entry key="Ini" value="11" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="165" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1075">
+              <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+              <folding>
+                <element signature="e#193#207#0" expanded="true" />
+                <marker date="1538113205401" expanded="true" signature="321:326" ph="..." />
+                <marker date="1538113205401" expanded="true" signature="2453:2458" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/spiders/a58tongcheng.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2000">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiangmuyanshi/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/spiders/luntan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiangmuyanshi/app/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1825">
+              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+              <folding>
+                <element signature="e#169#195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nayang/nayang/spiders/jobs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Stub" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>myspidr</find>
+      <find>IMAGES_MIN_HEIGHT</find>
+      <find>USER_AGENT</find>
+      <find>name</find>
+      <find>concurrent</find>
+      <find>print</find>
+      <find>idytpe</find>
+      <find>COOKIES_ENABLED</find>
+      <find>ENABLED</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders/xs.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/第三节练习1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SADFASDF.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Spader.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/111.py" />
+        <option value="$PROJECT_DIR$/xiazai.py" />
+        <option value="$PROJECT_DIR$/第二节.py" />
+        <option value="$PROJECT_DIR$/redis.py" />
+        <option value="$PROJECT_DIR$/Spader.py" />
+        <option value="$PROJECT_DIR$/第三节练习1.py" />
+        <option value="$PROJECT_DIR$/post11.pyi" />
+        <option value="$PROJECT_DIR$/post11.py" />
+        <option value="$PROJECT_DIR$/xiaoshuo_case1.py" />
+        <option value="$PROJECT_DIR$/1111.py" />
+        <option value="$PROJECT_DIR$/img.py" />
+        <option value="$PROJECT_DIR$/bizhi_test1.py" />
+        <option value="$PROJECT_DIR$/Console mg.py" />
+        <option value="$PROJECT_DIR$/第三节.py" />
+        <option value="$PROJECT_DIR$/Spider.py" />
+        <option value="$PROJECT_DIR$/tutorial/tutorial/settings.py" />
+        <option value="$PROJECT_DIR$/SADFASDF.py" />
+        <option value="$PROJECT_DIR$/爬虫随笔.py" />
+        <option value="$PROJECT_DIR$/爬虫随笔" />
+        <option value="$PROJECT_DIR$/asdfad.py" />
+        <option value="$PROJECT_DIR$/nayang/nayang/spiders/jobs.py" />
+        <option value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders/xs2.py" />
+        <option value="$PROJECT_DIR$/nayang/nayang/settings.py" />
+        <option value="$PROJECT_DIR$/nayang/nayang/pipelines.py" />
+        <option value="$PROJECT_DIR$/nayang/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/nayang/nayang/spiders/xiaoshuo.py" />
+        <option value="$PROJECT_DIR$/nayang/nayang/middlewares.py" />
+        <option value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/middlewares.py" />
+        <option value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders/xs.py" />
+        <option value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/items.py" />
+        <option value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/pipelines.py" />
+        <option value="$PROJECT_DIR$/xiaoshuo/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders/a58tongcheng.py" />
+        <option value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/settings.py" />
+        <option value="$PROJECT_DIR$/tongcheng/tongcheng/items.py" />
+        <option value="$PROJECT_DIR$/tongcheng/tongcheng/spiders/luntan.py" />
+        <option value="$PROJECT_DIR$/xiangmuyanshi/app/views.py" />
+        <option value="$PROJECT_DIR$/tongcheng/tongcheng/spiders/guazi.py" />
+        <option value="$PROJECT_DIR$/tongcheng/tongcheng/spiders/a58tongcheng.py" />
+        <option value="$PROJECT_DIR$/tongcheng/tongcheng/middlewares.py" />
+        <option value="$PROJECT_DIR$/tongcheng/tongcheng/pipelines.py" />
+        <option value="$PROJECT_DIR$/tongcheng/tongcheng/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="464" />
+    <option name="y" value="67" />
+    <option name="width" value="1181" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pachongxiazai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachongxiazai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachongxiazai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachongxiazai" type="462c0819:PsiDirectoryNode" />
+              <item name="tongcheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachongxiazai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachongxiazai" type="462c0819:PsiDirectoryNode" />
+              <item name="tongcheng" type="462c0819:PsiDirectoryNode" />
+              <item name="tongcheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachongxiazai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachongxiazai" type="462c0819:PsiDirectoryNode" />
+              <item name="tongcheng" type="462c0819:PsiDirectoryNode" />
+              <item name="tongcheng" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/TIANTIAN" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pachongxiazai\tongcheng\tongcheng\spiders" />
+      <recent name="E:\pachongxiazai" />
+      <recent name="E:\pachongxiazai\nayang" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.xs">
+    <configuration name="Console mg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pachongxiazai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Console mg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SADFASDF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pachongxiazai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SADFASDF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pachongxiazai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asdfad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pachongxiazai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asdfad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pachongxiazai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders/xs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Console mg" />
+      <item itemvalue="Python.Spider" />
+      <item itemvalue="Python.SADFASDF" />
+      <item itemvalue="Python.asdfad" />
+      <item itemvalue="Python.xs" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.xs" />
+        <item itemvalue="Python.asdfad" />
+        <item itemvalue="Python.SADFASDF" />
+        <item itemvalue="Python.Spider" />
+        <item itemvalue="Python.Console mg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18e02d37-0457-4648-872c-218f099da96e" name="Default Changelist" comment="" />
+      <created>1536028203300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536028203300</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28784648" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2892741" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32394367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.20693392" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2112676" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.26435536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/images/thumbs/small/7bc72d944f94635a47d59a6aa191a67858aa069f.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/images/thumbs/big/7fdbcaec7b36583dfa3d276f9e602d837c88e999.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/images/thumbs/big/7bc72d944f94635a47d59a6aa191a67858aa069f.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/images/thumbs/big/8e6390e6f74f13a73b830dc05800931b913a7e5c.jpg" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/pipelines/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/0ce9e8b5b7198fce841bad13604f8a520ae97042.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/0ebf201217c9b8a5cb42d6c698769f674895f96f.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/7b2d84ad19c6b5df9f14494c2b19c0370d0f2188.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/101be069beb36968a7936e104155c571e1ad8487.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/5393e71a3c461f9ac676919761b3a224ac75956f.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/ab6943ad5d235e4c34f6cdb4da52f34598648bae.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/c1236f9815756c2cb9fd85de46166b9e1e4b51c3.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/f1425265366d467d5872bd038ac63f524c115566.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/e5a152ad758631f44c293af47dddadcbd7520bc5.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/e7191bcdda8b7d7fc8135cfb0daf89f7719b1be7.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/f43183d4e094ee9f3c97ae2d0a6d7f03ceb797a4.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/full/f096d0d6235379ac203f2192abf6336a3f9cacd4.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/thumbs/big/0ce9e8b5b7198fce841bad13604f8a520ae97042.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/thumbs/big/0ebf201217c9b8a5cb42d6c698769f674895f96f.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/thumbs/small/0ebf201217c9b8a5cb42d6c698769f674895f96f.jpg" />
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/images/thumbs/small/2ffc7c3b9eb3fd2cf1c7bc728e322b15f6c58949.jpg" />
+    <entry file="file://$PROJECT_DIR$/nayang/scrapy-deploy.bat" />
+    <entry file="file://$PROJECT_DIR$/nayang/nayang/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders/a58tongcheng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/nayang/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/nayang/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1548">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/nayang/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders/xs2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="27" selection-start-line="33" selection-start-column="4" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/nayang/spiders/xiaoshuo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/nayang/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/nayang/spiders/bizhi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/spiders/xs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="77" column="12" selection-start-line="74" selection-start-column="10" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo/xiaoshuo/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="106" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiangmuyanshi/app/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/spiders/guazi.py" />
+    <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+            <marker date="1538113205401" expanded="true" signature="321:326" ph="..." />
+            <marker date="1538113205401" expanded="true" signature="2453:2458" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/spiders/a58tongcheng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiangmuyanshi/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/spiders/luntan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiangmuyanshi/app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding>
+            <element signature="e#169#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nayang/nayang/spiders/jobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tongcheng/tongcheng/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
